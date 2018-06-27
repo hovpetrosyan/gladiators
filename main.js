@@ -39,7 +39,7 @@ class Gladiator{
 var gladiators = [];
 var cessar = new Cessar();
 
-for (i=0;i<3;i++){
+for (i=0;i<7;i++){
   gladiators.push(new Gladiator((100-Math.floor(Math.random()*20)),(5-(Math.random()*3).toFixed(1)),(5-Math.floor(Math.random()*4)),faker.name.findName()));
 }
 var tm = setInterval(function(){
